@@ -19,16 +19,19 @@ body{
 
 .grid{
     width: 800px;
-    height: 700px;
+    min-height: 700px;
     border: 1px dashed black;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
 }
 .cell{
-    width: calc(100% / 8);
-    height: 100px;
+    width: calc(100% / 10);
+    height: 90px;
     border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-head{
