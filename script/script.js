@@ -5,6 +5,7 @@ const btn = document.getElementById("wantPlay");
 let newCell;
 btn.addEventListener("click", function(){
 console.log("inizia il gioco!") 
+    grid.classList.toggle("d-none")
     for(let i = 1 ; i <= 100 ; i++){
         newCell= document.createElement("div")
         newCell.classList.add("cell");
